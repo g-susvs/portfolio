@@ -1,0 +1,13 @@
+.aboutme-section{
+    padding-top: 80px;
+}
+.aboutme__title{
+    margin-bottom: 32px;
+}
+.aboutme__text{
+    font-size: var(--text-size);
+    line-height: 24px;
+}
+.aboutme__text strong{
+    color: var(--primary-soft-color);
+}

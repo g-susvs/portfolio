@@ -1,0 +1,57 @@
+
+.button{
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid white;
+    font-size: var(--text-size);
+    transition: .3s ease-in-out;
+}
+.button:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+.button--linkedIn{
+    background-color: #0a66c2;
+    border: 1px solid #0a66c2;
+    color: white;
+    
+}
+.button--linkedIn:hover{
+    background-color: #003f7e;
+    border: 1px solid #003f7e;
+    color: white;
+}
+.button--github{
+    color: #010409;
+    background-color: white;
+    border: 1px solid white;
+}
+.button--github:hover{
+    color: #010409;
+    border: 1px solid #a0a0a0;
+    background-color: #a0a0a0;
+}
+.button--seeDemo{
+    background-color: var(--primary-dark-color);
+    border: 1px solid var(--primary-dark-color);
+    color: white;
+    
+}
+.button--seeCode {
+    background-color: transparent;
+    color: white;    
+    border: 1px solid var(--primary-dark-color);
+}
+@media (max-width: 760px) {
+    .button{
+        font-size: 16px;
+
+    }
+}
