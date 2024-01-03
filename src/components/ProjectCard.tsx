@@ -1,13 +1,21 @@
-import { FC } from 'react';
+import { FC, Suspense, lazy } from 'react';
 
 import { ProjectProps } from '../interfaces';
 import { CustomButton } from './CustomButton';
+import { LoaderImage } from './LoaderImage';
+
+const Image = lazy(() => import('./LazyImage'))
+
 
 export const ProjectCard: FC<ProjectProps> = ({ imgPath, title, description, techs, urlDemo, urlRepository }) => {
     return (
         <div className="projectCard">
             <div className="projectCard__img">
-                <img src={imgPath} alt={title} />
+
+                <Suspense fallback={<LoaderImage />}>
+                    <Image src={imgPath} alt={title} />
+                </Suspense>
+
             </div>
             <div className="projectCard__body">
                 <p className="projectCard__title">{title}</p>

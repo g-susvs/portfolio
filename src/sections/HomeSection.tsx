@@ -1,13 +1,21 @@
-import { FC } from "react";
+import { FC, Suspense, lazy } from "react";
 import { CustomButton } from "../components/CustomButton";
 
 import '../css/home.css'
+import { LoaderImage } from "../components/LoaderImage";
+
+const Image = lazy(() => import('../components/LazyImage'))
+
 
 export const HomeSection: FC = () => {
     return (
         <section id="home" className='home-section'>
             <figure className='img__container'>
-                <img src="/assets/jesus.jpeg" alt="Jesús Valencia" />
+
+                <Suspense fallback={<LoaderImage />}>
+                    <Image src={"/assets/jesus.jpeg"} alt={"Jesús Valencia"} />
+                </Suspense>
+
             </figure>
             <div className="home__body">
                 <p className="home__myName">Jesús Valencia</p>
