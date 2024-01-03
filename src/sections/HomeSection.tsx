@@ -13,7 +13,7 @@ export const HomeSection: FC = () => {
             <figure className='img__container'>
 
                 <Suspense fallback={<LoaderImage />}>
-                    <Image src={"/assets/jesus.jpeg"} alt={"Jesús Valencia"} />
+                    <Image src={"/assets/jesus.jpg"} alt={"Jesús Valencia"} width="220" height="220" />
                 </Suspense>
 
             </figure>

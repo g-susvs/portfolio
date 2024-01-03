@@ -6,47 +6,47 @@ import '../css/skills.css'
 const skills: SkillProps[] = [
     {
         title: 'HTML',
-        imgPath: '/assets/techs/html.jpg'
+        imgPath: '/assets/techs/html.svg'
     },
     {
         title: 'CSS',
-        imgPath: '/assets/techs/css.jpg'
+        imgPath: '/assets/techs/css.svg'
     },
     {
         title: 'Javascript',
-        imgPath: '/assets/techs/javascript.jpg'
+        imgPath: '/assets/techs/javascript.svg'
     },
     {
         title: 'Typescript',
-        imgPath: '/assets/techs/typescript.jpg'
+        imgPath: '/assets/techs/typescript.svg'
     },
     {
         title: 'Sass',
-        imgPath: '/assets/techs/sass.png'
+        imgPath: '/assets/techs/sass.svg'
     },
     {
         title: 'Git',
-        imgPath: '/assets/techs/git.jpg'
+        imgPath: '/assets/techs/git.svg'
     },
     {
         title: 'React JS',
-        imgPath: '/assets/techs/react.jpg'
+        imgPath: '/assets/techs/react.svg'
     },
     {
         title: 'Node JS',
-        imgPath: '/assets/techs/node.png'
+        imgPath: '/assets/techs/node.svg'
     },
     {
         title: 'MongoDB',
-        imgPath: '/assets/techs/mongodb.jpg'
+        imgPath: '/assets/techs/mongodb.svg'
     },
     {
         title: 'MySql',
-        imgPath: '/assets/techs/mysql.png'
+        imgPath: '/assets/techs/mysql.svg'
     },
     {
         title: 'PostgreSQL',
-        imgPath: '/assets/techs/postgres.jpg'
+        imgPath: '/assets/techs/postgres.svg'
     },
 ]
 
