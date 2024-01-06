@@ -25,17 +25,15 @@ export const HomeSection: FC = () => {
                         customClass="button--linkedIn"
                         title="LinkedIn"
                         href="https://www.linkedin.com/in/jesus-guillermo-valencia-salvador/"
-                    >
-                        <span className="icon-linkedin2"></span>
+                        icon={<span className="icon-linkedin2"></span>}
+                    />
 
-                    </CustomButton>
                     <CustomButton
                         customClass="button--github"
                         title="Github"
                         href="https://github.com/g-susvs"
-                    >
-                        <span className="icon-github"></span>
-                    </CustomButton>
+                        icon={<span className="icon-github"></span>}
+                    />
 
                 </div>
 

@@ -30,12 +30,21 @@ export const ProjectCard: FC<ProjectProps> = ({ imgPath, title, description, tec
                     }
                 </div>
                 <div className="projectCard__buttons">
-                    <CustomButton customClass={'button--seeDemo'} href={urlDemo} title='Ver proyecto'>
-                        <span className="icon-link"></span>
-                    </CustomButton>
-                    <CustomButton customClass={'button--seeCode'} href={urlRepository} title='Repositorio'>
-                        <span className="icon-github"></span>
-                    </CustomButton>
+                    < CustomButton
+                        customClass={'button--seeDemo'}
+                        href={urlDemo}
+                        title='Ver proyecto'
+                        icon={<span className="icon-link"></span>}
+                    />
+
+
+                    <CustomButton
+                        customClass={'button--seeCode'}
+                        href={urlRepository}
+                        title='Repositorio'
+                        icon={<span className="icon-github"></span>}
+                    />
+
                 </div>
             </div>
         </div>

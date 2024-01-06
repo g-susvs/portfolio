@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test in <AboutMeSection/> should match snapshot 1`] = `
+<div>
+  <section
+    class="aboutme-section"
+    id="aboutme"
+  >
+    <h3
+      class="aboutme__title subtitle"
+    >
+      SOBRE MI
+    </h3>
+    <p
+      class="aboutme__text"
+    >
+      Egresado de la carrera de 
+      <strong>
+        Diseño y Desarrollo de Software
+      </strong>
+       en el instituto 
+      <strong>
+        Certus
+      </strong>
+      , durante mi tiempo en el instituto he explorado diferentes lenguajes y frameworks, he conectado con otros programadores y explorando diferentes áreas del desarrollo de software.
+    </p>
+    <br />
+    <p
+      class="aboutme__text"
+    >
+      Como desarrollador, mi enfoque es crear sitios web completamente funcionales. Me especializo en el desarrollo frontend, pero también tengo experiencia en el desarrollo del lado del servidor.
+    </p>
+  </section>
+</div>
+`;
+
+exports[`Test in <AboutMeSection/> should match with the snapshot 1`] = `
+<div>
+  <section
+    class="aboutme-section"
+    id="aboutme"
+  >
+    <h3
+      class="aboutme__title subtitle"
+    >
+      SOBRE MI
+    </h3>
+    <p
+      class="aboutme__text"
+    >
+      Egresado de la carrera de 
+      <strong>
+        Diseño y Desarrollo de Software
+      </strong>
+       en el instituto 
+      <strong>
+        Certus
+      </strong>
+      , durante mi tiempo en el instituto he explorado diferentes lenguajes y frameworks, he conectado con otros programadores y explorando diferentes áreas del desarrollo de software.
+    </p>
+    <br />
+    <p
+      class="aboutme__text"
+    >
+      Como desarrollador, mi enfoque es crear sitios web completamente funcionales. Me especializo en el desarrollo frontend, pero también tengo experiencia en el desarrollo del lado del servidor.
+    </p>
+  </section>
+</div>
+`;
+
+exports[`Test in <AboutMeSection/> should render the component 1`] = `
+<div>
+  <section
+    class="aboutme-section"
+    id="aboutme"
+  >
+    <h3
+      class="aboutme__title subtitle"
+    >
+      SOBRE MI
+    </h3>
+    <p
+      class="aboutme__text"
+    >
+      Egresado de la carrera de 
+      <strong>
+        Diseño y Desarrollo de Software
+      </strong>
+       en el instituto 
+      <strong>
+        Certus
+      </strong>
+      , durante mi tiempo en el instituto he explorado diferentes lenguajes y frameworks, he conectado con otros programadores y explorando diferentes áreas del desarrollo de software.
+    </p>
+    <br />
+    <p
+      class="aboutme__text"
+    >
+      Como desarrollador, mi enfoque es crear sitios web completamente funcionales. Me especializo en el desarrollo frontend, pero también tengo experiencia en el desarrollo del lado del servidor.
+    </p>
+  </section>
+</div>
+`;

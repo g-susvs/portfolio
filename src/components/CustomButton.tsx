@@ -4,17 +4,17 @@ interface Props {
     customClass?: string;
     href: string;
     title: string;
-    children: JSX.Element;
+    icon?: JSX.Element;
 }
 
-export const CustomButton: FC<Props> = ({ customClass, href, title, children }) => {
+export const CustomButton: FC<Props> = ({ customClass, href, title, icon }) => {
     return (
         <a
             className={`button ${customClass}`}
             target="blank"
             href={href}
         >
-            {children}
+            {icon}
             <p>{title}</p>
         </a>
     )
