@@ -24,7 +24,7 @@ const projects: ProjectProps[] = [
         title: 'Todo App',
         imgPath: '/assets/projects/todoapp.jpg',
         description: 'Listar tareas pendientes y completadas.',
-        techs: ['React JS', 'SASS'],
+        techs: ['React JS', 'Sass'],
         urlDemo: 'https://todo-app-gsusvs.netlify.app/',
         urlRepository: 'https://github.com/g-susvs/To-Do-App',
     }

@@ -8,11 +8,11 @@ export const Footer: FC = () => {
                     2024 - Creado con ❤️ por <strong>Jesús Valencia</strong>
                 </p>
                 <div className='buttons-group'>
-                    <a target="blank" className="button button--linkedIn" href="https://www.linkedin.com/in/jesus-guillermo-valencia-salvador/">
+                    <a target="blank" className="button button--linkedIn" aria-label="Ir al linkedIn" href="https://www.linkedin.com/in/jesus-guillermo-valencia-salvador/">
                         <span className="icon-linkedin2"></span>
 
                     </a>
-                    <a target="blank" className="button button--github" href="https://github.com/g-susvs">
+                    <a target="blank" className="button button--github" aria-label="Ir al github" href="https://github.com/g-susvs">
                         <span className="icon-github"></span>
 
                     </a>

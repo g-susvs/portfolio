@@ -26,12 +26,23 @@
     gap: 24px;
 }
 .home__myName{
+    font-weight: bold;
     font-size: 32px;
 }
 .home__rolDev{
-    font-size: 40px;
-    color: var(--primary-color);
+    font-size: 44px;
+    position: relative;
+    color: transparent;
 }
+.home__rolDev::before{
+    position: absolute;
+    content: '<Desarrollador Web />';
+    inset: 0;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-dark-color));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .buttons-group{
     display: flex;
     gap: 24px;

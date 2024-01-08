@@ -10,15 +10,15 @@ const Image = lazy(() => import('./LazyImage'))
 export const ProjectCard: FC<ProjectProps> = ({ imgPath, title, description, techs, urlDemo, urlRepository }) => {
     return (
         <div className="projectCard">
-            <div className="projectCard__img">
+            <a className="projectCard__img" target='blank' href={urlDemo}>
 
                 <Suspense fallback={<LoaderImage />}>
                     <Image src={imgPath} alt={title} />
                 </Suspense>
 
-            </div>
+            </a>
             <div className="projectCard__body">
-                <p className="projectCard__title">{title}</p>
+                <h3 className="projectCard__title">{title}</h3>
                 <p className="projectCard__description">{description}</p>
                 <div className="projectCard__techsList">
                     {

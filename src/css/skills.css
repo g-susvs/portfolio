@@ -20,6 +20,10 @@
     background-color: var(--second-background-color);
     border-radius: 8px;
 }
+.skillCard:hover{
+    background-color: #2b2b3a;
+}
+
 .skillCard__img{
     width: 60px;
     height: 60px;

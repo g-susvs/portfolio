@@ -18,7 +18,6 @@ export const App: FC = () => {
                 <SkillsSection />
                 <ProjectsSection />
             </main>
-
             <Footer />
         </div>
     )

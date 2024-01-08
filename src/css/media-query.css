@@ -5,10 +5,10 @@
         justify-content: start;
     }
     .home__myName{
-        font-size: 24px;
+        font-size: 28px;
     }
     .home__rolDev{
-        font-size: 32px;
+        font-size: 40px;
     }
 }
 @media (max-width: 768px) {
@@ -16,40 +16,19 @@
         display: flex;
         gap: 24px;
     }
-    .buttonMenu{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .navbar{
-        padding: 0px;
-        height: auto;
-    }
-    .navbar__container{
-        background-color: var(--background-color);
-        height: 71px;
-        align-items: center;
+
+    .navbar__title{
+        font-size: 28px;
     }
     .navbarMenu{
-        position: fixed;
-        top:71px;
-        left: 0px;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        gap: 24px;
-        flex-direction: column;
-        align-items: center;
-        background-color: var(--background-color);
-        padding: 48px 20px;
-    }
-    .navbarMenu--hidden{
-        display: none;
+        gap: 12px;
     }
     .navbarMenu__item{
-        padding: 18px;
-        width: 100%;
+        font-size: 14px;
+        padding: 8px;
     }
+    
+    
     .text-center{
         text-align: center;
     }
@@ -75,10 +54,61 @@
         font-size: var(--text-size);
         line-height: 24px;
     }
-    
 }
 
 @media (max-width: 664px){
+    .buttonMenu{
+        display: block;
+        z-index: 4;
+    }
+
+    /*  */
+    .hamburger.is-active .hamburger-inner,
+    .hamburger.is-active .hamburger-inner::before,
+    .hamburger.is-active .hamburger-inner::after {
+        background-color: var(--primary-soft-color); 
+    }
+
+    .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+        background-color: var(--primary-soft-color);
+    }
+    /*  */
+
+    .navbar{
+        padding: 0px;
+        height: auto;
+    }
+    .navbar__container{
+        background-color: var(--background-color);
+        height: 71px;
+        align-items: center;
+    }
+    .navbarMenu{
+        position: fixed;
+        top:0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        gap: 0px;
+        flex-direction: column;
+        background-color: #121214;
+        padding: 100px 0px;
+        transition: .3s ease;
+        transform: translate(100%, 0);
+    }
+    
+    .navbarMenu--show{
+        transform: translate(0, 0);
+    }
+   
+    .navbarMenu__item{
+        width: 100%;
+        border-radius: 0px;
+        padding: 28px;
+        font-size: 18px;
+    }
+
+
     .subtitle{
         font-size: 20px;
     }
