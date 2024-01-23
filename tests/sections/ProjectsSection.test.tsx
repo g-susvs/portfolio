@@ -6,7 +6,7 @@ describe('Test in <ProjectsSection/>', () => {
     const projectsDescription = {
         p1: 'Aplicación diseñada para la toma de apuntes con formato Markdown, tomando inspiración de la versatilidad de Notion.',
         p2: 'Proyecto académico, funcionalidad de un chatbot. Conexión a servidor con toda la lógica para manejar el input del usuario.',
-        p3: 'Listar tareas pendientes y completadas.'
+        p3: 'Lista de tareas que incorpora la funcionalidad de "Drag & Drop" para gestionar el estado de cada tarea.'
     }
 
     test('each project should have the correct description', async () => {

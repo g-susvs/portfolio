@@ -14,7 +14,7 @@ exports[`Test in <AboutMeSection/> should match snapshot 1`] = `
     <p
       class="aboutme__text"
     >
-      Egresado de la carrera de 
+      Hola 👋 mi nombre es Jesús Valencia, he culminado mis estudios de 
       <strong>
         Diseño y Desarrollo de Software
       </strong>
@@ -22,81 +22,13 @@ exports[`Test in <AboutMeSection/> should match snapshot 1`] = `
       <strong>
         Certus
       </strong>
-      , durante mi tiempo en el instituto he explorado diferentes lenguajes y frameworks, he conectado con otros programadores y explorando diferentes áreas del desarrollo de software.
+      . Durante mi tiempo en el instituto, he podido conocer las  diversas áreas del desarrollo de software, estableciendo conexiones con compañeros programadores, compartiendo ideas y desarrollando juntos.
     </p>
     <br />
     <p
       class="aboutme__text"
     >
-      Como desarrollador, mi enfoque es crear sitios web completamente funcionales. Me especializo en el desarrollo frontend, pero también tengo experiencia en el desarrollo del lado del servidor.
-    </p>
-  </section>
-</div>
-`;
-
-exports[`Test in <AboutMeSection/> should match with the snapshot 1`] = `
-<div>
-  <section
-    class="aboutme-section"
-    id="aboutme"
-  >
-    <h3
-      class="aboutme__title subtitle"
-    >
-      SOBRE MI
-    </h3>
-    <p
-      class="aboutme__text"
-    >
-      Egresado de la carrera de 
-      <strong>
-        Diseño y Desarrollo de Software
-      </strong>
-       en el instituto 
-      <strong>
-        Certus
-      </strong>
-      , durante mi tiempo en el instituto he explorado diferentes lenguajes y frameworks, he conectado con otros programadores y explorando diferentes áreas del desarrollo de software.
-    </p>
-    <br />
-    <p
-      class="aboutme__text"
-    >
-      Como desarrollador, mi enfoque es crear sitios web completamente funcionales. Me especializo en el desarrollo frontend, pero también tengo experiencia en el desarrollo del lado del servidor.
-    </p>
-  </section>
-</div>
-`;
-
-exports[`Test in <AboutMeSection/> should render the component 1`] = `
-<div>
-  <section
-    class="aboutme-section"
-    id="aboutme"
-  >
-    <h3
-      class="aboutme__title subtitle"
-    >
-      SOBRE MI
-    </h3>
-    <p
-      class="aboutme__text"
-    >
-      Egresado de la carrera de 
-      <strong>
-        Diseño y Desarrollo de Software
-      </strong>
-       en el instituto 
-      <strong>
-        Certus
-      </strong>
-      , durante mi tiempo en el instituto he explorado diferentes lenguajes y frameworks, he conectado con otros programadores y explorando diferentes áreas del desarrollo de software.
-    </p>
-    <br />
-    <p
-      class="aboutme__text"
-    >
-      Como desarrollador, mi enfoque es crear sitios web completamente funcionales. Me especializo en el desarrollo frontend, pero también tengo experiencia en el desarrollo del lado del servidor.
+      Como programador mi enfoque se orienta a la creación de sitios web funcionales, con experiencia desarrollando tanto frontend como backend.
     </p>
   </section>
 </div>

@@ -8,7 +8,7 @@ const projects: ProjectProps[] = [
         title: 'Notas Markdown App',
         imgPath: '/assets/projects/app-markdown.jpg',
         description: 'Aplicación diseñada para la toma de apuntes con formato Markdown, tomando inspiración de la versatilidad de Notion.',
-        techs: ['React JS', 'Material UI', 'Node JS', 'Typescript'],
+        techs: ['React JS', 'Material UI', 'Node JS', 'Express JS', 'Typescript'],
         urlDemo: 'https://notas-markdown.vercel.app/',
         urlRepository: 'https://github.com/g-susvs/notas-markdown',
     },
@@ -21,13 +21,13 @@ const projects: ProjectProps[] = [
         urlRepository: 'https://github.com/g-susvs/chatbot-ui',
     },
     {
-        title: 'Todo App',
-        imgPath: '/assets/projects/todoapp.jpg',
-        description: 'Listar tareas pendientes y completadas.',
-        techs: ['React JS', 'Sass'],
-        urlDemo: 'https://todo-app-gsusvs.netlify.app/',
-        urlRepository: 'https://github.com/g-susvs/To-Do-App',
-    }
+        title: 'Gestor de Tareas',
+        imgPath: '/assets/projects/task-manager.png',
+        description: 'Lista de tareas que incorpora la funcionalidad de "Drag & Drop" para gestionar el estado de cada tarea.',
+        techs: ['React JS', 'Tailwind'],
+        urlDemo: 'https://task-manager-g-susvs.vercel.app/',
+        urlRepository: 'https://github.com/g-susvs/task-manager',
+    },
 ]
 
 export const ProjectsSection = () => {

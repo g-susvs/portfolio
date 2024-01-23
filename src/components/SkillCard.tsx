@@ -1,7 +1,6 @@
 import { FC, Suspense, lazy } from 'react';
 import { SkillProps } from '../interfaces';
 import { LoaderImage } from './LoaderImage';
-// import { LazyImage } from './LazyImage';
 
 const Image = lazy(() => import('./LazyImage'))
 

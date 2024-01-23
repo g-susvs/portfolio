@@ -22,7 +22,7 @@ describe('Test in <ProjectCard />', () => {
         await waitFor(() => {
             expect(screen.getByRole("img").getAttribute('alt')).toBe(projectProps.title)
             expect(screen.getByText(projectProps.title)).toBeTruthy()
-            expect(screen.getByText('Ver proyecto')).toBeTruthy()
+            expect(screen.getByText('Demo')).toBeTruthy()
             expect(screen.getByText('Repositorio')).toBeTruthy()
         })
     })

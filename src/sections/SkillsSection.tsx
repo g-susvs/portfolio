@@ -25,12 +25,20 @@ const skills: SkillProps[] = [
         imgPath: '/assets/techs/sass.svg'
     },
     {
+        title: 'Tailwind',
+        imgPath: '/assets/techs/tailwind.svg'
+    },
+    {
         title: 'Git',
         imgPath: '/assets/techs/git.svg'
     },
     {
         title: 'React JS',
         imgPath: '/assets/techs/react.svg'
+    },
+    {
+        title: 'Jest',
+        imgPath: '/assets/techs/jest.svg'
     },
     {
         title: 'Node JS',

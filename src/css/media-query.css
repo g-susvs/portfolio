@@ -55,6 +55,19 @@
         line-height: 24px;
     }
 }
+@media (max-width: 684px){
+    .projectCard{
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px 1fr;
+    }
+    .projectCard__buttons{
+        justify-content: space-between;
+    }
+
+    .projectCard__description{
+        font-size: 16px;
+    }
+}
 
 @media (max-width: 664px){
     .buttonMenu{
@@ -113,18 +126,6 @@
         font-size: 20px;
     }
     .aboutme__text{
-        font-size: 16px;
-    }
-
-    .projectCard{
-        grid-template-columns: 1fr;
-        grid-template-rows: 250px 1fr;
-    }
-    .projectCard__buttons{
-        justify-content: space-between;
-    }
-
-    .projectCard__description{
         font-size: 16px;
     }
 

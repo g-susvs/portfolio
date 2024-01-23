@@ -33,7 +33,7 @@ export const ProjectCard: FC<ProjectProps> = ({ imgPath, title, description, tec
                     < CustomButton
                         customClass={'button--seeDemo'}
                         href={urlDemo}
-                        title='Ver proyecto'
+                        title='Demo'
                         icon={<span className="icon-link"></span>}
                     />
 
